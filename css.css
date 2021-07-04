@@ -1,0 +1,192 @@
+body
+{
+    padding: 0px;
+    background-color: black;
+    margin: 0px;
+    font-family: "Century Gothic", "Malgun Gothic", Arial, sans-serif;
+}
+
+#header
+{
+    background-color: midnightblue;
+    color: white;
+    height: 90px;
+    margin: 0px;
+    padding: 0px 20px 0px 20px;
+}
+#header p
+{
+    display: inline-block;
+    float: right;
+    font-size: 26px;
+    margin: 30px 8px 0px 8px;
+    color: white;
+}
+
+#header h1
+{
+    display: inline-block;
+    float: left;
+}
+
+#footer
+{
+    background-color: white;
+    color: black;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#footer p
+{
+    margin: auto;
+    font-size: 18px;
+}
+
+#welcome
+{
+    background-image: url("slika1.png");
+    background-color: black;
+
+    height: 600px;
+    margin: 0px;
+    padding: 150px 70px;
+    font-weight: bold;
+}
+#welcome p
+{
+    color: white;
+    font-size: 40px;
+}
+
+#music
+{
+    background-color: black;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-size: 25px;
+}
+
+#music1
+{
+    background-color: black;
+    margin: 0px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#music1 .album
+{
+    display: inline-block;
+    width: 300px;
+    height: 420px;
+    text-align: center;
+}
+
+#sports
+{
+    background-color: white;
+    margin: 0px;
+    height: 420px;
+    padding: 20px;
+}
+#sports img
+{
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin: 20px 20px;
+}
+#sports p
+{
+    font-size: 30px;
+    color: rebeccapurple;
+    text-shadow: yellow 2px 2px;
+    margin-top: 80px;
+}
+
+#movies
+{
+    background-image: url("movies.jpg");
+    background-size: 100%;
+    margin: 0px;
+    padding: 35px;
+    height: 390px;
+}
+#movies h1, #movies li
+{
+    font-style: normal;
+    color: white;
+}
+#movies li, #shows li
+{
+    font-size: 21px;
+}
+
+#shows
+{
+    background-image: url("shows.jpg");
+    background-size: 100%;
+    height: 390px;
+    margin: 0px;
+    padding: 35px;
+}
+#shows h1
+{
+    float: right;
+    clear: both;
+}
+#shows li
+{
+    float: right;
+    clear: both;
+}
+
+
+#selected
+{
+    color: yellow !important;
+}
+
+
+
+
+#mail
+{
+    background-color: black;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: normal;
+}
+#mail img
+{
+    width: 150px;
+    margin: 33px;
+    position: relative;
+    bottom: 79px;
+}
+
+
+#about
+{
+    display: flex;
+    justify-content: center;
+    background-image: url("bg.jpg");
+    height: 900px;
+    padding: 50px;
+}
+#about p
+{
+    color: white;
+    text-shadow: black 2px 2px 2px;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
